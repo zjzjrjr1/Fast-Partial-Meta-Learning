@@ -1,4 +1,6 @@
 # Partial Transfer Learning with MAML with CNN Architecture
+Full story is available on The Medium: https://medium.com/@ikim1994914/maml-based-partial-transfer-learning-for-fast-meta-learning-cnn-architecture-10ad4368f37e
+
 MAML meta learning basis te idea on that the model adapts fast to a task-specific data, then the learning can transfered to the other data. 
 This will make the learning faster because the model can leanrn on subsets of data and the fine tuning can happen once (or very few times) on the rest of the data. 
 However, with more inspection of the CNN model, the learning can be accelerated by freezing some layers. 
